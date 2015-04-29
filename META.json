@@ -1,0 +1,48 @@
+{
+    "name": "pgcozy",
+    "abstract": "shared buffer snapshot and prewarm extension",
+    "version": "1.0.0",
+    "maintainer": [ 
+        "Keith Fiske <vventirozos@omniti.com>"
+    ],
+    "license": "postgresql",
+    "generated_by": "Vasilis Ventirozos",
+    "release_status": "stable",
+    "prereqs": {
+        "runtime": {
+            "requires": {
+                "PostgreSQL": "9.4.0",
+                "pg_buffercache": "1.0.0",
+				"pg_prewarm": "1.0.0"
+            }
+        }
+    },
+    "provides": {
+        "pgcozy": {
+            "file": "sql/pgcozy--1.0.sql",
+            "docfile": "doc/pgcozy.md",
+            "version": "1.0.0",
+            "abstract": "shared buffer snapshot and prewarm extension"
+        }
+    },
+    "resources": {
+        "bugtracker": {
+            "web": "https://github.com/vventirozos/pgcozy/issues"
+        },
+        "repository": {
+            "url": "git://github.com/vventirozos/pgcozy.git" ,
+            "web": "https://github.com/vventirozos/pgcozy",
+            "type": "git"
+        }
+    },    
+    "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+    },
+    "tags": [
+        "function",
+		"performance",
+		"shared buffers",
+		"caching"
+    ]
+}
