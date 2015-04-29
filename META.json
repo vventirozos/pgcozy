@@ -3,7 +3,7 @@
     "abstract": "shared buffer snapshot and prewarm extension",
     "version": "1.0.0",
     "maintainer": [ 
-        "Keith Fiske <vventirozos@omniti.com>"
+        "Vasilis Ventirozos <vventirozos@omniti.com>"
     ],
     "license": "postgresql",
     "generated_by": "Vasilis Ventirozos",
